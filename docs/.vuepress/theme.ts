@@ -28,8 +28,7 @@ export default hopeTheme({
 
   // 深色模式配置
   darkmode: "switch",
-  // 全屏按钮
-  fullscreen: true,
+
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
   repo: "bcfead/bcfead.github.io",
@@ -93,28 +92,28 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true, // 使用特殊标记为 Markdown 元素添加属性
-      // chart: true,
-      // codetabs: true, // 代码块分组
+      chart: true,
+      codetabs: true, // 代码块分组
       container: true,
-      // demo: true, //代码演示
-      // echarts: true,
-      // flowchart: true,
+      demo: true, //代码演示
+      echarts: true,
+      flowchart: true,
       gfm: true,
       imgLazyload: true,
-      // imgMark: true,
+      imgMark: true,
       imgSize: true,
       figure: true,
       include: true, //导入文件
-      // katex: true,
+      katex: true,
       mark: true,
-      // mermaid: true,
+      mermaid: true,
       footnote: true,
       tasklist: true,
       sub: true, // 上下角标
       sup: true,
-      // tabs: true, // 选项卡
-      // vpre: true,
-      // vuePlayground: true, // Vue 交互演示
+      tabs: true, // 选项卡
+      vpre: true,
+      vuePlayground: true, // Vue 交互演示
     },
 
     // rss 属性
